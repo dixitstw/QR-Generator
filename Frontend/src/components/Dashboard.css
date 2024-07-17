@@ -1,0 +1,144 @@
+/* Dashboard.css */
+.dashboard-container {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dashboard-header {
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+  background-color: #232323;
+}
+
+.dashboard-title {
+  font-size: 36px;
+  color: #04e762;
+}
+
+.dashboard-subtitle {
+  font-size: 24px;
+  color: #ffd300;
+}
+
+.my-qr-heading {
+  margin-left: 1rem;
+  margin-bottom: 5%;
+  font-size: 24px;
+  position: absolute;
+}
+
+.dashboard-grid {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.dashboard-left {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 70%;
+}
+
+
+.dashboard-item {
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  padding: 5px;
+  height: 300px;
+  Width: 300px;
+}
+
+.dashboard-item img {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 5px;
+  min-height: 200px;
+  display: block;
+}
+
+.dashboard-item-content h4 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.dashboard-item-content p {
+  margin: 0;
+}
+
+.no-qr{
+  margin-top: 15%;
+  margin-left: 5%;
+}
+
+.dashboard-delete-btn {
+  color: #c1121f;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+.dashboard-update-btn {
+  color: #343a40;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+
+.dashboard-delete-btn:hover {
+  color: #780000;
+}
+.dashboard-update-btn:hover {
+  color: black;
+}
+
+.dashboard-right {
+  width: 30%;
+}
+
+.dashboard-actions {
+  text-align: center;
+}
+
+.create-qr-btn {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.create-qr-btn:hover {
+  background-color: #218838;
+}
+
+.logout-btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.logout-btn:hover {
+  background-color: #0056b3;
+}
+
+.qr-image {
+  width: 20rem;
+  height: 20rem;
+  margin: 20px 0;
+}

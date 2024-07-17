@@ -1,0 +1,79 @@
+.qrcode-form-container {
+    width: 100%;
+    max-width: 1024px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+    border-radius: 20px;
+   
+  }
+   .form-title {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+ 
+ 
+  .sub-heading {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+  }
+   .form-group {
+    margin-bottom: 15px;
+  }
+   .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+   .form-group input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+   .generate-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+   .generate-btn:hover {
+    background-color: #0056b3;
+  }
+   .error-message,
+  .success-message {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+ 
+
+    font-weight: bold;
+}
+ .error-message {
+  background-color: #dc3545;
+  color: #fff;
+}
+ .success-message {
+  background-color: #28a745;
+  color: #fff;
+}
+ .qr-code-container {
+  margin-top: 20px;
+}
+ .qr-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+ .qr-code-img {
+  max-width: 100%;
+  height: auto;
+}
+
